@@ -308,7 +308,7 @@ void	test_all()
 
 int	main(void)
 {
-    test_simple();
+	test_simple();
 	test_percent();
 	test_c();
 	test_s();
