@@ -12,5 +12,6 @@ void    ft_putstr(char *str, int *len);
 void    ft_putnbr(int nb, int *len);
 void    ft_putnbr_base(unsigned int nbr, char format, int *len);
 void    ft_putnbr_u(unsigned int nb, int *len);
+void    ft_print_pointer(void *addr, int *len);
 
 # endif

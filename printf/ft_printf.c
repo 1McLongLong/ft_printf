@@ -16,6 +16,8 @@ void    find_specifier(const char specifier, va_list args, int *len)
         ft_putnbr_base(va_arg(args, int), specifier, len);
     else if (specifier == 'u')
         ft_putnbr_u(va_arg(args, unsigned int), len);
+    else if (specifier == 'p')
+        ft_print_pointer(va_arg(args, void *), len);
 }
 
 int ft_printf(const char *format, ...)
