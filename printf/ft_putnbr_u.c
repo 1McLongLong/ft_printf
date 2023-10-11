@@ -7,6 +7,6 @@ void    ft_putnbr_u(unsigned int nb, int *len)
     else
     {
         ft_putnbr(nb / 10, len);
-        ft_putnbr(nb & 10, len);
+        ft_putnbr(nb % 10, len);
     }  
 }
